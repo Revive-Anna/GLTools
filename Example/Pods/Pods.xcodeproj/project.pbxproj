@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09BE7979290652A15CB8139B2CA2C073 /* Pods-GLTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9117903854865826059C58F5168BE6 /* Pods-GLTools_Tests-dummy.m */; };
+		3A91FB6FF53C4FF396C9F7BB29674F03 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58344B3806DF7F13E2668774761F0870 /* ReplaceMe.swift */; };
+		4B12C92C00B44CC4F963B10042C3FC62 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		8B482C73D3EE2E2ADC5E0C61F405DF16 /* GLTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 737ED7B3306BE952A6144DA4C667B51D /* GLTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C83E0A5A96D72C1138FC4420740543 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		B8483EAD9B7E2B917051EB0BF473792E /* Pods-GLTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE76EB3ED3BFD14A71B337EF502489D /* Pods-GLTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9AB7CA1868422A7C3ADD2A034149526 /* GLTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE32EED986F1CAEA6E6C787784F87D8A /* GLTools-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C07E510F2CCA2306204D6CAB5A4A177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006A8762C84E6086A4A5FE18BF81847E;
+			remoteInfo = GLTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C9117903854865826059C58F5168BE6 /* Pods-GLTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		1BA25E356AA7EB82C2515DB09BA0090F /* Pods-GLTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		274CB7993FD3D0DA196C96C9E1F79335 /* GLTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GLTools.modulemap; sourceTree = "<group>"; };
+		34995E0073013AD3311F24D1AD1F4D31 /* Pods-GLTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AAD99AD36836248ADB3AB58E4D460AC /* Pods-GLTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3C7F2F32DEF4924A970501BEFCFCE44E /* GLTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLTools.debug.xcconfig; sourceTree = "<group>"; };
+		535028E5188FBC01BC6E20708F64E531 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		58344B3806DF7F13E2668774761F0870 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GLTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5C11B02893703BE621A774C69A7B4755 /* GLTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GLTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		737ED7B3306BE952A6144DA4C667B51D /* GLTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLTools-umbrella.h"; sourceTree = "<group>"; };
+		8C71E42B478E09513D5258557DE2AD97 /* GLTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLTools-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF282FA9EB4FF8CEBB816074A6378E4 /* Pods-GLTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLTools_Tests-Info.plist"; sourceTree = "<group>"; };
+		A36C9CBD442D69F6548E1D43EFDDD5EB /* GLTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GLTools.framework; path = GLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A8A7E815092CD4CBDFF4D97496B25F /* Pods-GLTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ACD09C8351B80D58BE9FD46B55519771 /* Pods_GLTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLTools_Tests.framework; path = "Pods-GLTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFA298161C0C0FF6D4D726F4824A968 /* Pods-GLTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLTools_Tests.modulemap"; sourceTree = "<group>"; };
+		BEE76EB3ED3BFD14A71B337EF502489D /* Pods-GLTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C95F041FFCC5B7D59E647D4CBA2F760B /* Pods-GLTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E05D8BD97469F1B5BC47503DCABEAE15 /* GLTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLTools.release.xcconfig; sourceTree = "<group>"; };
+		EA25204873746C8FF864211E9E354A54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EE32EED986F1CAEA6E6C787784F87D8A /* GLTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLTools-dummy.m"; sourceTree = "<group>"; };
+		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FFFBF17D53ABB9C98A3465F40AD40DAC /* GLTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GLTools-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		572DC5A2F110FB9988A89C2501FC721D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C83E0A5A96D72C1138FC4420740543 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49C367BA5DADA3D0356B792A76213E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B12C92C00B44CC4F963B10042C3FC62 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB5F93BBF91908E168F9AEAB3863CB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				274CB7993FD3D0DA196C96C9E1F79335 /* GLTools.modulemap */,
+				EE32EED986F1CAEA6E6C787784F87D8A /* GLTools-dummy.m */,
+				FFFBF17D53ABB9C98A3465F40AD40DAC /* GLTools-Info.plist */,
+				8C71E42B478E09513D5258557DE2AD97 /* GLTools-prefix.pch */,
+				737ED7B3306BE952A6144DA4C667B51D /* GLTools-umbrella.h */,
+				3C7F2F32DEF4924A970501BEFCFCE44E /* GLTools.debug.xcconfig */,
+				E05D8BD97469F1B5BC47503DCABEAE15 /* GLTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GLTools";
+			sourceTree = "<group>";
+		};
+		595E6C35BD8C7A08E381448F85310A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A36C9CBD442D69F6548E1D43EFDDD5EB /* GLTools.framework */,
+				ACD09C8351B80D58BE9FD46B55519771 /* Pods_GLTools_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D76027460544A946063625F59564D06 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E92DF811185D1A596EF9F973D7D5FE03 /* GLTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A1103A29FD6DA58538A90BF4D3D48236 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5C11B02893703BE621A774C69A7B4755 /* GLTools.podspec */,
+				535028E5188FBC01BC6E20708F64E531 /* LICENSE */,
+				EA25204873746C8FF864211E9E354A54 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CEF4CF9BD4B7A927621265FD6F5BB6E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2836E9AE3631B81D77009E47D2A91A9 /* Pods-GLTools_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8D76027460544A946063625F59564D06 /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				595E6C35BD8C7A08E381448F85310A17 /* Products */,
+				CEF4CF9BD4B7A927621265FD6F5BB6E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2836E9AE3631B81D77009E47D2A91A9 /* Pods-GLTools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA298161C0C0FF6D4D726F4824A968 /* Pods-GLTools_Tests.modulemap */,
+				C95F041FFCC5B7D59E647D4CBA2F760B /* Pods-GLTools_Tests-acknowledgements.markdown */,
+				A4A8A7E815092CD4CBDFF4D97496B25F /* Pods-GLTools_Tests-acknowledgements.plist */,
+				0C9117903854865826059C58F5168BE6 /* Pods-GLTools_Tests-dummy.m */,
+				3AAD99AD36836248ADB3AB58E4D460AC /* Pods-GLTools_Tests-frameworks.sh */,
+				9DF282FA9EB4FF8CEBB816074A6378E4 /* Pods-GLTools_Tests-Info.plist */,
+				BEE76EB3ED3BFD14A71B337EF502489D /* Pods-GLTools_Tests-umbrella.h */,
+				34995E0073013AD3311F24D1AD1F4D31 /* Pods-GLTools_Tests.debug.xcconfig */,
+				1BA25E356AA7EB82C2515DB09BA0090F /* Pods-GLTools_Tests.release.xcconfig */,
+			);
+			name = "Pods-GLTools_Tests";
+			path = "Target Support Files/Pods-GLTools_Tests";
+			sourceTree = "<group>";
+		};
+		E92DF811185D1A596EF9F973D7D5FE03 /* GLTools */ = {
+			isa = PBXGroup;
+			children = (
+				58344B3806DF7F13E2668774761F0870 /* ReplaceMe.swift */,
+				A1103A29FD6DA58538A90BF4D3D48236 /* Pod */,
+				0FB5F93BBF91908E168F9AEAB3863CB7 /* Support Files */,
+			);
+			name = GLTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DDE459B8E59C3F21C247BDFD0A16A17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B482C73D3EE2E2ADC5E0C61F405DF16 /* GLTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A64B0CCCD6762F84BD0B5D87F296179 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8483EAD9B7E2B917051EB0BF473792E /* Pods-GLTools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		006A8762C84E6086A4A5FE18BF81847E /* GLTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1349916BEB996AF956104FC5B9FC91BB /* Build configuration list for PBXNativeTarget "GLTools" */;
+			buildPhases = (
+				4DDE459B8E59C3F21C247BDFD0A16A17 /* Headers */,
+				7C299FB5DD3096E95EB5829E5CC01433 /* Sources */,
+				F49C367BA5DADA3D0356B792A76213E5 /* Frameworks */,
+				7B9755D3FC0DB167BD14A19C0EE8A915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLTools;
+			productName = GLTools;
+			productReference = A36C9CBD442D69F6548E1D43EFDDD5EB /* GLTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3BDB2A78E3DF5BC7EB25CAEDEA409F8 /* Pods-GLTools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BC07F662DC024FDB2E6FFED5863B76 /* Build configuration list for PBXNativeTarget "Pods-GLTools_Tests" */;
+			buildPhases = (
+				7A64B0CCCD6762F84BD0B5D87F296179 /* Headers */,
+				BA629DC7D4AAE3BD4E9BD48605C25760 /* Sources */,
+				572DC5A2F110FB9988A89C2501FC721D /* Frameworks */,
+				A5C32C0FEB55E179EF89BF5BB828AC4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF230E3489ADB6DC567162F37E4697B /* PBXTargetDependency */,
+			);
+			name = "Pods-GLTools_Tests";
+			productName = "Pods-GLTools_Tests";
+			productReference = ACD09C8351B80D58BE9FD46B55519771 /* Pods_GLTools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 595E6C35BD8C7A08E381448F85310A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				006A8762C84E6086A4A5FE18BF81847E /* GLTools */,
+				B3BDB2A78E3DF5BC7EB25CAEDEA409F8 /* Pods-GLTools_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B9755D3FC0DB167BD14A19C0EE8A915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C32C0FEB55E179EF89BF5BB828AC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C299FB5DD3096E95EB5829E5CC01433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AB7CA1868422A7C3ADD2A034149526 /* GLTools-dummy.m in Sources */,
+				3A91FB6FF53C4FF396C9F7BB29674F03 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA629DC7D4AAE3BD4E9BD48605C25760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE7979290652A15CB8139B2CA2C073 /* Pods-GLTools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BF230E3489ADB6DC567162F37E4697B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLTools;
+			target = 006A8762C84E6086A4A5FE18BF81847E /* GLTools */;
+			targetProxy = 1C07E510F2CCA2306204D6CAB5A4A177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C96BB1B6051EE50175A8D5B6C486A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA25E356AA7EB82C2515DB09BA0090F /* Pods-GLTools_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-GLTools_Tests/Pods-GLTools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLTools_Tests/Pods-GLTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84D0B39EE9B12399875B9B7E6788BF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34995E0073013AD3311F24D1AD1F4D31 /* Pods-GLTools_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-GLTools_Tests/Pods-GLTools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLTools_Tests/Pods-GLTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9382317ED75CFC741F429FC224405042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C96CC69F0EEF54246CDE3C462D10BC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05D8BD97469F1B5BC47503DCABEAE15 /* GLTools.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/GLTools/GLTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLTools/GLTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/GLTools/GLTools.modulemap";
+				PRODUCT_MODULE_NAME = GLTools;
+				PRODUCT_NAME = GLTools;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAABD98727ABF849F24927DA0C997365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7F2F32DEF4924A970501BEFCFCE44E /* GLTools.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/GLTools/GLTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLTools/GLTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/GLTools/GLTools.modulemap";
+				PRODUCT_MODULE_NAME = GLTools;
+				PRODUCT_NAME = GLTools;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4DEAC9B52796426D2A37E7074A1738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1349916BEB996AF956104FC5B9FC91BB /* Build configuration list for PBXNativeTarget "GLTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAABD98727ABF849F24927DA0C997365 /* Debug */,
+				C96CC69F0EEF54246CDE3C462D10BC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382317ED75CFC741F429FC224405042 /* Debug */,
+				E4DEAC9B52796426D2A37E7074A1738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92BC07F662DC024FDB2E6FFED5863B76 /* Build configuration list for PBXNativeTarget "Pods-GLTools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D0B39EE9B12399875B9B7E6788BF5C /* Debug */,
+				6C96BB1B6051EE50175A8D5B6C486A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
